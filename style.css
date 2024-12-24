@@ -1,0 +1,60 @@
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+label {
+    display: block;
+    font-size: 14px;
+    margin: 8px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.book-info {
+    background-color: #f4f4f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.book-info p {
+    font-size: 16px;
+    color: #333;
+}
+
+.book-info strong {
+    color: #2e3b4e;
+}
+
+.book-info:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.book-info:nth-child(even) {
+    background-color: #fff;
+}
